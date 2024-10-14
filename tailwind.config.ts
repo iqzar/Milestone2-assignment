@@ -8,9 +8,13 @@ const config: Config = {
   ],
   theme: {
     extend: {
+       fontFamily: {
+        custom: ['Poppins', 'sans-serif'], // Replace 'YourFontFamily' with the actual font name
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        cy: '#fdcf5b'
       },
     },
   },
